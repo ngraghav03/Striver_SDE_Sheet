@@ -17,3 +17,11 @@ This repository contains the following problems:
     -> Find the duplicate in an array of N + 1 integers
     -> Repeat and Missing Number
     -> Inversion of Array
+
+    Arrays3
+    -> Search in a 2D Matrix
+    -> Pow(x, n)
+    -> Majority Element (> n/2 times)
+    -> Majority Element (> n/3 times)
+    -> Grid Unique Paths
+    -> Count Reverse Pairs
