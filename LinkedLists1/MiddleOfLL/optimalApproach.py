@@ -23,20 +23,20 @@ def middle_Of_LL(head):
             break
 
     return mid'''
-
+    
+    # We start mid from start. For each two steps taken by the temp node, we move mid by one step.abs
+    # Therefore, at the end, mid will point to the middle (present at half of the list) of the list.
+     
     while temp is not None:
-        # print("temp = ", temp.data, "mid = ", mid.data)   //Debugging purpose
-        # print()                                           //Debugging purpose
-        # if temp.next is not None:                         //Debugging purpose
         if (temp.next is None):
             break
         n += 1
         # print("n = ", n)
-        if (n % 2 == 0):
+        if (n % 2 == 0 and n != 0):
             mid = mid.next
         # print("mid = ", mid.data)
         temp = temp.next
-        
+        # print(mid.data, temp.data)
     return mid
 
 def print_LL(head):
@@ -52,7 +52,7 @@ head.next = Node(2)
 head.next.next = Node(3)
 head.next.next.next = Node(4)
 head.next.next.next.next = Node(5)
-Nhead.next.next.next.next.next = Node(6)
+head.next.next.next.next.next = Node(6)
 
 print("Original Linked List: ")
 print_LL(head)
