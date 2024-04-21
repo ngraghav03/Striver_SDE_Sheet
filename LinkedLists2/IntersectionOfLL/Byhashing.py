@@ -52,5 +52,5 @@ printLL(head2)
 print("The intersection point is: ")
 print(findIntersection(head1, head2).data)
 
-# ? Time Complexity: O(M x N) where M and N is the length of the 1st and 2nd linked lists
-# ? Space Complexity: O(1) as we are not using any additional space.
+# ? Time Complexity: O(M + N) where M and N is the length of the 1st and 2nd linked lists
+# ? Space Complexity: O(M) as we are storing at most M elements in the hashSet.
