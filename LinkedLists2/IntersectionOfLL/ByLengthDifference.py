@@ -21,24 +21,22 @@ def findIntersection(head1, head2):
     l1 = 0
     l2 = 0
 
-    current1 = None
-    current2 = None
+    # current1 = None
+    # current2 = None
 
-    current = head1
-    # print("1: ")
-    while current != None:
-        l1 += 1
-        # print(current.data, end = " ")
-        current = current.next
-    # print()
+    current1 = head1
+    current2 = head2
+    # ? Time Complexity : O(max(l1, l2))
+    while current1 is not None or current2 is not None:
+        if current != None:
+            l1 += 1
+            current1 = current1.next
+        if current2 != None:
+            l2 += 1
+            current2 = current2.next
+        
+    
 
-    current = head2
-    # print("2: ")
-    while current != None:
-        l2 += 1
-        # print(current.data, end = " ")
-        current = current.next
-    # print()
 
     # print(l1, l2)
 
@@ -47,6 +45,7 @@ def findIntersection(head1, head2):
     # print(diff, end = " ")
 
     # ! Step 3: Move current pointer of the larger list by diff number of positions
+    # ? Time Complexity : O(l2 - l1)
     if l1 > l2:
         k1 = 1
         current1 = head1
@@ -67,7 +66,7 @@ def findIntersection(head1, head2):
 
     # ! Step 4: Now move both the pointers. If they collide return the colliding node, else move both pointers to next one until end of list.
     # print(current1.data, current2.data)
-
+    # ? Time Complexity : O(l1) (where l1 < l2)
     while current1 != None and current2 != None:
         if current1 == current2:
             return current1
@@ -94,5 +93,5 @@ printLL(head2)
 print("The intersection point is: ")
 print(findIntersection(head1, head2).data)
 
-# ? Time Complexity: O(M x N) where M and N is the length of the 1st and 2nd linked lists
+# ? Time Complexity: O(max(M, N)) + O(N - M) + O(M) ~ O(max(M, N)) where M and N is the length of the 1st and 2nd linked lists and M < N.
 # ? Space Complexity: O(1) as we are not using any additional space.
