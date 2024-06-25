@@ -25,3 +25,12 @@ This repository contains the following problems:
     -> Majority Element (> n/3 times)
     -> Grid Unique Paths
     -> Count Reverse Pairs
+
+    Arrays4
+    -> 2 Sum Problem
+    -> 3 Sum Problem
+    -> 4 Sum Problem
+    -> Longest Consecutive Sequence
+    -> Largest Subarray with K sum
+    -> Count number of subarrays with given xor K
+    -> Longest Substring wihout repeat

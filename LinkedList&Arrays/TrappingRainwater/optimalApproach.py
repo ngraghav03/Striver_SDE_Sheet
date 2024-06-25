@@ -26,7 +26,7 @@ def trappingRainwater(arr):
             left += 1
         else:
             if arr[right] > rightMax:
-                # Update leftMax
+                # Update rightMax
                 rightMax = arr[right]
             else:
                 waterTrapped += rightMax - arr[right]
