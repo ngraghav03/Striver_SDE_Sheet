@@ -34,3 +34,12 @@ This repository contains the following problems:
     -> Largest Subarray with K sum
     -> Count number of subarrays with given xor K
     -> Longest Substring wihout repeat
+
+    LinkedLists1
+    -> Reverse a Linked List
+    -> Find the middle of Linked List
+    -> Merge two sorted Linked Lists
+    -> Remove Nth node from back of Linked List
+    -> Add two numbers as LinkedList
+    -> Delete a given Node when a node is given
+    -> Reorder a Linked List
