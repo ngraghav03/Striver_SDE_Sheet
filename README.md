@@ -43,3 +43,12 @@ This repository contains the following problems:
     -> Add two numbers as LinkedList
     -> Delete a given Node when a node is given
     -> Reorder a Linked List
+
+    LinkedLists2
+    -> Find Intersection Point of Linked List
+    -> Detect a cycle in Linked List
+    -> Reverse a Linked List in groups of size 'k'
+    -> Check if Linked List is Palindrome
+    -> Find the starting point of the loop of Linked List
+    -> Flattening of a Linked List
+    -> Odd Even Linked List
