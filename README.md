@@ -52,3 +52,10 @@ This repository contains the following problems:
     -> Find the starting point of the loop of Linked List
     -> Flattening of a Linked List
     -> Odd Even Linked List
+
+    LinkedList and Arrays
+    -> Rotate a Linked List
+    -> Clone a Linked List with Random and Next Pointer
+    -> Trapping Rainwater
+    -> Remove Duplicate from Sorted Array
+    -> Max consecutive 1s
