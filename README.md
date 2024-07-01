@@ -59,3 +59,11 @@ This repository contains the following problems:
     -> Trapping Rainwater
     -> Remove Duplicate from Sorted Array
     -> Max consecutive 1s
+
+    Greedy Algorithm
+    -> N meetings in one room
+    -> Minimum number of platforms required for a railway
+    -> Job sequencing Problem
+    -> Fractional Knapsack
+    -> Greedy Algorithm to find minimum number of coins
+
