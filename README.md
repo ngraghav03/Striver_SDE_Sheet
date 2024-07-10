@@ -66,4 +66,5 @@ This repository contains the following problems:
     -> Job sequencing Problem
     -> Fractional Knapsack
     -> Greedy Algorithm to find minimum number of coins
+    -> Assign Cookies
 
