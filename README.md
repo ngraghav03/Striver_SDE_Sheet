@@ -68,3 +68,11 @@ This repository contains the following problems:
     -> Greedy Algorithm to find minimum number of coins
     -> Assign Cookies
 
+    Stack and Queue
+    -> Implement Stack using Arrays
+    -> Implement Queue using Arrays
+    -> Implement Stack using Queue (2 queues and single queue)
+    -> Implement Queue using Stack (2 stacks and O(1) amortized method)
+    -> Check for balanced parantheses (Valid Parantheses)
+    -> Next Greater Element
+
